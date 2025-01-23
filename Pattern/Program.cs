@@ -1,6 +1,5 @@
 ﻿using System;
 
-//This is a comment added to check git commit --ammend command.
 namespace Pattern
 {
     class Program
