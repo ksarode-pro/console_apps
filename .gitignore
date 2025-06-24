@@ -51,3 +51,7 @@ Pattern/obj/Pattern.csproj.nuget.g.props
 Pattern/obj/Pattern.csproj.nuget.g.targets
 Pattern/obj/project.assets.json
 Pattern/obj/project.nuget.cache
+AccessModifier/bin
+AccessModifier/obj
+RemoveDuplicateArrayElements/bin
+RemoveDuplicateArrayElements/obj
