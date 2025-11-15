@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -7,6 +7,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicateArrayElements", "RemoveDuplicateArrayElements\RemoveDuplicateArrayElements.csproj", "{C9BC2B10-820D-37B2-4BF6-090364B84E29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pattern", "Pattern\Pattern.csproj", "{639AE732-D929-AEE4-1908-80BAE5C4F667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{2D14DCBA-078B-4611-B024-38006C3EF477}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{639AE732-D929-AEE4-1908-80BAE5C4F667}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{639AE732-D929-AEE4-1908-80BAE5C4F667}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{639AE732-D929-AEE4-1908-80BAE5C4F667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D14DCBA-078B-4611-B024-38006C3EF477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D14DCBA-078B-4611-B024-38006C3EF477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D14DCBA-078B-4611-B024-38006C3EF477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D14DCBA-078B-4611-B024-38006C3EF477}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
