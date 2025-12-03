@@ -14,5 +14,20 @@ namespace RemoveDupplicateArrayElement
                 System.Console.WriteLine(x);
             }
         }
+
+        // public static void Main(string[] arg)
+        // {
+        //     int[] a = [10, 1, 2, 3, 9, 4, 4, 4, 5, 5, 5, 5, 6, 7, 8, 8];
+        //     HashSet<int> hs = new HashSet<int>();
+        //     foreach (int x in a)
+        //     {
+        //         hs.Add(x);
+        //     }
+
+        //     foreach (int x in hs)
+        //     {
+        //         System.Console.WriteLine(x);
+        //     }
+        // }
     }
 }
