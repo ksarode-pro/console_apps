@@ -52,7 +52,8 @@ namespace AccessModifier
         public void ShowB()
         {
             System.Console.WriteLine("Number2 in B = " + number2);
-            System.Console.WriteLine("number3 in B = " + number3);
+            //System.Console.WriteLine("number3 in B = " + number3);
+            //'A.number3' is inaccessible due to its protection level
         }
     }
 
