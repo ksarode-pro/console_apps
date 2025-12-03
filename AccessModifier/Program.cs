@@ -2,13 +2,15 @@
 
 /*
 List of Access Modifiers:
-Modifier	        Scope	                                                        Accessible From
-public	            No restriction	                                                Any class in any assembly
-private	            Restricted to containing class only	                            Only within the same class
-protected	        Containing class and derived classes	                        Same class and subclasses (even in other assemblies)
-internal	        Same assembly	                                                Anywhere in the same project/assembly
-protected internal	Same assembly or any derived class (in any assembly)	        Same assembly OR subclasses outside
-private protected	Containing class and derived classes within the same assembly	Same assembly AND subclass only
+| Modifier               | Scope / Visibility Description                                           | Accessible From                                               |
+| ---------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| **public**             | No restriction                                                           | Any class in any assembly                                     |
+| **private**            | Only within the containing class                                         | Same class only                                               |
+| **protected**          | Containing class + derived classes                                       | Same class and all subclasses (including in other assemblies) |
+| **internal**           | Only within the same assembly                                            | Any code in the same project/assembly                         |
+| **protected internal** | *Union*: protected **OR** internal (whichever allows access)             | Same assembly OR any subclass in any assembly                 |
+| **private protected**  | *Intersection*: private **AND** protected (both conditions must be true) | Accessible only to subclasses **within the same assembly**    |
+
 
 */
 
