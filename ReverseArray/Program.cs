@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ReverseArray
 {
@@ -12,7 +12,7 @@ namespace ReverseArray
             int[] rev_arr = ReverseArray(arr);
             PrintArray(rev_arr);
         }
-
+// prints array
         static void PrintArray(int[] arr)
         {
             Console.WriteLine("Reversed Array elements: ");
@@ -22,7 +22,7 @@ namespace ReverseArray
             }
             Console.WriteLine();
         }
-
+// reverse array function
         static int[] ReverseArray(int[] arr)
         {
             Console.WriteLine("Array elements: ");
@@ -40,7 +40,6 @@ namespace ReverseArray
                 }
             }
             return arr;
-
         }
     }
 }
