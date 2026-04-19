@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Pattern
 {
@@ -17,3 +17,11 @@ namespace Pattern
         }
     }
 }
+/*
+output
+1
+12
+123
+1234
+12345
+*/
